@@ -1,6 +1,6 @@
 ## Branch and Worktree naming convention
 
-**Format:** `prefix/[id]-description` (lowercase, kebab-case)
+**Format:** `prefix/short-description` (lowercase, kebab-case)
 
 | Prefix | Usage |
 | :--- | :--- |
