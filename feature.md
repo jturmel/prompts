@@ -22,8 +22,7 @@ is complete according to the spec provided, then you should add more permutation
 - Try to use built-in ways of testing and running containers as presented in tools like make (Makefile), npm package.json scripts, etc.
 
 ## Operating the codebase
-- If there are collisions with running containers on the same ports, just stop the other containers
-without asking, and retry. Sometimes containers from previous tries are still running, just stop/kill them.
+- If there are collisions with running containers on the same ports when attempting to run tests/linting/etc, warn the user and pause and ask how they'd like to proceed, either with you shutting those other ones down to run yours, or waiting.
 
 ## Documentation and Reminders
 - Make note of high level functionality you're adding in `.specs/`, this isn't detailed technical jargon,
