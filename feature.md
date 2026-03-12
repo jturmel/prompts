@@ -31,8 +31,7 @@ it's higher level and readability should be for the business, not
 technical employees. This `.specs/` directory should have multiple Markdown files, with each
 one representing a high-level category, choose or add one that makes sense and then add a bullet
 point for each feature that was added. DO NOT GO DEEP with the `.specs/`, stay business focused.
-
-<example>
-If you built a feature that adds reminders to users for their calendar events, you might write something in
-`.specs/users.md` or `.specs/calendar.md`. You'd include no more than one line for a feature that small.
-</example>
+  - Example: <example>If you built a feature that adds reminders to users for their calendar events, you might write something in
+`.specs/users.md` or `.specs/calendar.md`. You'd include no more than one line for a feature that small.</example>
+- If there were notable or important decisions made during planning or building phases, then make note of those in `.specs/` as well
+so that future development cycles and team members can be aware of them.
