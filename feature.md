@@ -1,5 +1,5 @@
 ## Important Rules
-- Make a new branch on a worktree in (.worktrees/)
+- [Git branch and worktree naming convention](./git-branch-worktree-naming-convention.md)
 - For everything that needs to be tracked, it should be done so using a JSON state file called state.json
 - Answer the user's question directly, avoiding any elaboration, explanation, introduction, conclusion, or excessive details.
 - Do not add additional code explanation summary unless requested by the user.
