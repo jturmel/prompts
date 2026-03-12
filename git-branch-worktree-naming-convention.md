@@ -17,3 +17,5 @@
 - `fix/save-blog-post-error`
 - `refactor/validation-framework`
 - `hotfix/login-crash`
+
+**Worktree location:** `.worktrees/` in the root of the repo
