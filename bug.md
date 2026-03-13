@@ -24,6 +24,7 @@ permutations of the tests to make sure you're covering different scenarios.
 - Try to use built-in ways of testing and running containers as presented in tools like make (Makefile), npm package.json scripts, etc.
 
 ## Operating the codebase
+- IMPORTANT: After planning is complete, but *BEFORE* starting work, ask the user if they're ready to start and present to them two options [Start Work], [No, I have more to plan].
 - If there are collisions with running containers on the same ports when attempting to run tests/linting/etc, warn the user and pause and ask how they'd like to proceed, either with you shutting those other ones down to run yours, or waiting.
 
 ## Documentation and Reminders
